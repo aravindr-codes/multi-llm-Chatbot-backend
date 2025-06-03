@@ -1,2 +1,3 @@
 # multi-llm-Chatbot-backend
-Simple fast api for learning purposes
+Simple fast api for supporting multimodel AI chat simulation for learning purpose
+
