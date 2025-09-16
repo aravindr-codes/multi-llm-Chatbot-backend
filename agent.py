@@ -1,6 +1,6 @@
 import os
 
-os.environ["OPENAI_API_KEY"] = 
+os.environ["OPENAI_API_KEY"] = "" 
 from langchain.agents import Tool
 from langchain.tools import WikipediaQueryRun
 from langchain.utilities import WikipediaAPIWrapper
@@ -26,3 +26,6 @@ agent = initialize_agent(
     agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
     verbose=True  # Show thought process step-by-step
 )
+goal = "What are the top AI coding assistants and what makes them unique?"
+response = agent.run(goal)
+print("\nAgent's response:\n", response)
