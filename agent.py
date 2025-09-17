@@ -17,7 +17,7 @@ wiki = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
 tools = [wiki]
 
 # Use a ChatOpenAI model with zero randomness
-llm = ChatOpenAI(temperature=0, model="gpt-4o")  # change model as needed
+llm = ChatOpenAI(temperature=0, model="gpt-4o")  
 
 # Combine reasoning (LLM) and tools into one agent
 agent = initialize_agent(
