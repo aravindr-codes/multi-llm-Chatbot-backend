@@ -14,7 +14,7 @@ async def read_root():
     return {"message": "Welcome to the Echo API! Try /chat_completion or /echo_body."}
 
 
-@app.post("/chat_completion")
+@app.post("/chat_completion") # function to complete chats
 async def chat_completion(
     request_data: Dict[str, Any] = Body(
         ...,
@@ -38,7 +38,7 @@ async def chat_completion(
     }
 
 
-@app.post("/echo_body/")
+@app.post("/echo_body/") # function to echo request body
 async def echo_request_body(
     request_data: Dict[str, Any] = Body(
         ...,
