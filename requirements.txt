@@ -3,3 +3,6 @@ langchain-openai
 langchain-core
 pydantic
 typing-extensions
+openai
+anthropic
+python-dotenv
