@@ -6,3 +6,4 @@ typing-extensions
 openai
 anthropic
 python-dotenv
+google-generativeai
