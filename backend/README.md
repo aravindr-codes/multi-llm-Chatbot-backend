@@ -1,5 +1,7 @@
 # Backend API
 
+Install Python dependencies with `pip install -r requirements.txt`.
+
 ## Run the server
 From the `backend` directory:
 
